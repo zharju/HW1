@@ -1,0 +1,35 @@
+20
+BUILD 0 23 green red
+BUILD 4.5 3 magenta
+BUILD 3 6.8 orange
+		BUILD 0 100 blue
+ SKYLINE     5
+EXTEND 0.5 10 red
+EXTEND 0 10.5 red
+EXTEND 		0 10		 red		
+ SKYLINE  100 
+DEMOLISH 0.5
+DEMOLISH 0
+BUILD -1 10 green
+BUILD 14 15 red
+BUILD 14 20 blue
+BUILD 1 -10 magenta
+BUILD 1 10 pink
+EXTEND 1 100 red green
+EXTEND 1 0 brown
+EXTEND 30 100 blue
+BUILD 5 900 orange
+BUILD 10 9000 red
+DEMOLISH 19
+DEMOLISH 30
+SKYLINE 0.5
+SKYLINE 10
+SKYLINE 0
+EXTEND -10 5 orange
+EXTEND 10 -5 orange
+extend 10 6 red
+EXTEND 8 5 red
+EXTEND 10 500 blue
+BUILD 17 0 yellow
+SKYLINE -5
+SKYLINE 5
