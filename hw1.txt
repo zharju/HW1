@@ -1,0 +1,16 @@
+1a) 1, 4, 8
+
+1b) 2,3,4,5
+
+1c) 2
+
+1d) 2, 4
+
+2a) 1, 3
+
+2b) git log -p -3
+
+2c) it will ask you to input your non-optional commit message. Git commit is used to save to your local repository, but will not put it on your github unless you push it.
+
+
+4. Since n is greater than 5 it will pass the if statement. Then it will continue being recursively called by the line in[0] = funcA (in, n-1) until n is less than one. Therefore, it is called down to in[0] = funcA(in, 1-1) which no longer passes the if statement. From there, it will move on to calling funcB(in, 0). This returns 1 and will keep the input as [1,2,3,4,5]. Next it calls funcB(in, 1) and returns 1, changing the original inputs to [1,1,3,4,5]. Then goes on to call funcB(in, 2) and returns 1, changing the original input to [1,1,1,4,5]. Then calls funcB(in, 3) which returns 1 and changes the original input to [1,1,1,1,5]. Finally it calls funcB(in, 4) and it returns 1, and the original input is changed to [1,1,1,1,1]. Since the first line of funcB is int temp = in[0], and temp is never changed again, when it returns temp, it is always returning 1.
